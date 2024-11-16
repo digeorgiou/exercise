@@ -1,0 +1,125 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #dddddd;
+    
+}
+
+.container {
+    width: 560px;
+    height: 504.89px;
+    background-color: white;
+    border: 1px solid white;
+    margin-top: 1.5%;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 1%;
+}
+
+.flexbox-jfcenter {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+input,label {
+    display: block;
+}
+label {
+    font-size: 14px;
+    font-weight: bold;
+    margin-right: 40%;
+    /* padding: 1%; */
+}
+input {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1%;
+    margin-bottom: 3%;
+    height: 35px;
+    width: 50%;
+    /* background-color: #e8f0fd; */
+    border: 1px solid #cbccd0;
+    border-radius: 5%;
+}
+
+input[type=text]:focus {
+outline: none;
+border: 1px solid #84a7c7;
+box-shadow: #dbf0ff;
+padding-left: 2%;
+}
+
+.user-auth {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    text-align: center;
+    padding-top: 7px;
+    padding-bottom: 3px;
+    height: 40.39px;
+    width: 560px;
+    background-color: #537aa3;
+    color: white;
+    font-size: 24px;
+    font-weight: 400;
+}
+
+.form-container {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    text-align: center;
+    font-size: 26px;
+    text-align: center;
+    margin-bottom: 5px;
+    margin-top: 28px;
+    font-weight: 300;
+    color: #3d3331;
+
+}
+
+.connection-button {
+    height: 35px;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 2%;
+    background-color: #418bca;
+    border-radius: 5%;
+    font-size: 13px;
+    color: white;
+}
+
+.connection-button a:link {
+    text-decoration: none;
+    color: white;
+}
+.connection-button a:visited {
+    text-decoration: none;
+    color: white;
+} 
+
+.connection {
+    height: 40px;
+    width: 100%;
+}
+
+
+.enter-password {
+    font-size : 14px;
+    color: #3d3331;
+}
+
+.hrclass {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    border: 0.1px solid #eeeeee;
+}
+
+.last-note {
+    font-size: 14px;
+    margin-top: 8%;
+    color: #5980a9
+}
